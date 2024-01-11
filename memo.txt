@@ -1,0 +1,17 @@
+4_2_5250412_1_2275_20231101,06:46:00,06:46:00,5736_1,7,,0,0,
+
+
+
+service_idが5_1 平日,_2土曜日,_3日曜日
+"5_1_20231101","1","1","1","1","1","0","0","20231101","20240413"
+"5_2_20231101","0","0","0","0","0","1","0","20231101","20240413"
+"5_3_20231101","0","0","0","0","0","0","1","20231101","20240413"
+
+
+→　service_idが"5_1_20231101"のarrive_timeを出力する必要
+
+trips.txtから5_1_20231101のtrip_idを取得
+↓
+取得したtripidから stop_times.txt の arrival_timeを出力
+
+trip_id,arrival_time,departure_time,stop_id,stop_sequence,stop_headsign,pickup_type,drop_off_type,shape_dist_traveled
