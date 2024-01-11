@@ -1,6 +1,0 @@
-color,size
-white,XL
-black,S
-red,M
-red,XL
-blue,XXL
