@@ -90,9 +90,14 @@ window.onload = function() {
             }
         }
 
-        // 秒数を削除
-        closestTime = closestTime.substring(0, closestTime.lastIndexOf(":"));
-        secondClosestTime = secondClosestTime.substring(0, secondClosestTime.lastIndexOf(":"));
+        // closestTimeおよびsecondClosestTimeがnullでないことを確認してからsubstringメソッドを適用
+        if (closestTime !== null) {
+            closestTime = closestTime.substring(0, closestTime.lastIndexOf(":"));
+        }
+
+        if (secondClosestTime !== null) {
+            secondClosestTime = secondClosestTime.substring(0, secondClosestTime.lastIndexOf(":"));
+        }
 
         return [closestTime, secondClosestTime];
     }
