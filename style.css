@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(196, 238, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#header {
+    font-size: 90px;
+    border-bottom: 3px solid #aaa;
+    color: #aaa;
+}
+
+#main {
+    font-size: 60px;
+}
+
+#basyo1,
+#basyo2 {
+    width: 950px;
+    margin: 2px;
+    padding: 2px;
+    border: double 5px #4874da;
+    background-color: #9cb2f2;
+    text-align: center;
+}
+
+#closestTime,
+#secondClosestTime,
+#arrival-time,
+#next-arrival-time {
+    width: 150px;
+    padding: 0.5rem 0;
+    margin-bottom: 0.2rem;
+    border-bottom: 6px double #464840;
+    font-weight: bold;
+}
+
+#train {
+    font-size: 60px;
+}
+
+#function {
+    font-size: 50px;
+}
+
+button {
+    font-size: 50px;
+    width: 10em;
+    height: 2em;
+    margin: auto;
+}
